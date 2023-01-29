@@ -1,0 +1,15 @@
+var I = 0,J = 0,b[][2] = { 0,{1},{2},3,{4},5,{6},{7},{8},9, };
+begin
+I := 0;
+while I <7 do
+begin
+	J := 0;
+while J <2 do
+begin
+		print(b[I][J]);
+    	J := J + 1;
+end;
+    I := I + 1;
+end;
+print();
+end.

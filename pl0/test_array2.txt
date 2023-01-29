@@ -1,0 +1,13 @@
+var a[][2] = {{0,1},{2,3},{4,5}};
+procedure p;
+var i,b[2] ={1,2};
+begin
+    i := 2;
+    print(i);
+    print(b[0]);
+end;
+begin
+    print(a[2][1]);
+    call p;
+    print();
+end.

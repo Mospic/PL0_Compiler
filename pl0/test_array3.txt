@@ -1,0 +1,23 @@
+var b[][2] ={{0 + 10,1},{2,3 * 5},{4,5}}, a[3] = {1, 2, 3};
+procedure p;
+var i = 2 * 3, c[4] = {2, 3, 4, 5};
+procedure q;
+begin 
+    print(i);
+    print();
+    b[0][1] := 5;
+    print(b[0][1]);
+    print();
+end;
+begin
+    call q;
+    print(b[1][1], i, c[0]);
+    print();
+end;
+begin
+    call p;
+    print(b[1][1], a[2], b[0][0]);
+    print();
+end.
+
+

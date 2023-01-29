@@ -1,0 +1,18 @@
+var i,j,k,l,d[][2][1][1] = { 0,{1,},{2},3,{4},5,{6},{7},{8},9, };
+begin
+i:=0;
+j:=0;
+k:=0;
+l:=0;
+while i <7 do
+begin
+	j := 0;
+while j <2 do
+begin
+	print(d[i][j][0][0]);
+    	j := j + 1;
+end;
+    i := i + 1;
+end;
+print();
+end.

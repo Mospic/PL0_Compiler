@@ -1,0 +1,12 @@
+var i = 3 * 2;
+procedure p;
+var k = 4;
+begin
+  k:= 3;
+  i := 2;
+end;
+
+begin
+  i := 1;
+  call p;
+end.
