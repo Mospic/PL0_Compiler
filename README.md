@@ -1,2 +1,2 @@
 # PL0_Compiler
-This PL0 compiler program is based on C/C++, which is the lab of principles &amp; technology of compiler design.
+自制的基于C/C++的PL0语言编译器，实现了基础程序的词法分析、语法分析、语义分析等结构。
